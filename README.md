@@ -3,7 +3,7 @@
 Machine learning algorithms (logistic regression, support vector machines, linear regression) with tensor factorization structure on coefficients/predictors
 These algorithms are useful for when the data inherently has "low-rank structured data".
 
-For more information, refer to the paper submitted to Rutgers Undergraduate Aresty Journal:
+For more information, refer to the paper submitted to **Rutgers Undergraduate Aresty Journal**: [Paper](https://0dd37264-afc1-4a24-9ba5-e79720bc9ea4.filesusr.com/ugd/f056cc_32f3263618ca48b198a532343ec17ddd.pdf)
 
 
 ## Contact and Contributions
