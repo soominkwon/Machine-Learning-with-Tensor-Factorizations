@@ -105,6 +105,21 @@ class CP_LinearRegression:
         
     
     def fit(self, tensor, labels, C=1, max_iterations=200, sensitivity=1e-6, print_iterations=True):
+        """ Function to train data.
+            
+            Arguments:
+                tensor: Training data
+                Y: Labels according to X
+                C: Hyperparameter for regularization
+                max_iterations: Maximum number of iterations for optimization
+                sensitivity: Sensitivity of the function
+                print_iterations: Prints the objective function error while training if True
+                
+            Returns:
+                init_dict: Optimized weights (predictors) in dictionary for 
+                            chosen algorithm according to (X, y)
+        """
+        
         iterations = 0
         error = 1
         current_error = 0
