@@ -5,7 +5,20 @@ These algorithms are useful for when the data inherently has "low-rank structure
 
 For more information, refer to the paper submitted to Rutgers Undergraduate Aresty Journal:
 
+
 ## Contact and Contributions
 This package is in alpha, so bug reports regarding implementation and etc. are highly welcomed. More information about tutorials can also be requested and is highly encouraged!
 
-Please contact $\texttt{soominkwon0402@gmail.com}$
+Contact: soominkwon0402@gmail.com
+
+
+## Dependencies
+The algorithms CP-SVM, CP-LogisticRegression, and CP-LinearRegression have the following dependencies:
+
+* Python 3.x
+* Numpy 1.17.2
+* Scipy 1.3.1
+* TensorLy
+
+## Programs
+
